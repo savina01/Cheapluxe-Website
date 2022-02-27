@@ -77,7 +77,14 @@ h4 {
     margin: 0 auto;
 }
 
-.left {
+.leftPhoto {
+    float:left;
+    padding-left: 50px;
+    width: 700px;
+    margin: 60px;
+}
+
+.leftPhotoEuphoria {
     float:left;
     padding-left: 50px;
     width: 700px;
@@ -90,6 +97,22 @@ h4 {
     padding-right: 120px;
     margin: 19px;
     text-align: left;    
+}
+
+.descriptionContainerAndOrderForLeggingNike {
+    float:right;
+    padding-left: 52px;
+    padding-right: 120px;
+    margin: 42px;
+    text-align: left;    
+}
+
+.descriptionContainerAndOrderForLegging {
+    float:right;
+    padding-left: 52px;
+    padding-right: 120px;
+    margin: 30px;
+    text-align: left;  
 }
 
 .price {
