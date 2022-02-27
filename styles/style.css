@@ -1,0 +1,164 @@
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+    margin: 0;
+}
+
+img {
+    margin: 26px;
+    border:0px solid #ccc;
+    width: 480px;
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    padding-top: 30px;
+    padding-left: 70px;   
+}
+
+p {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+h4 {
+    text-align: center;
+    font-size: medium;
+    background-color: rgb(83, 184, 224);
+    padding: 5px;
+}
+
+.contact {
+    color: rgb(83, 184, 224);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.EuphoriaBlouse {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    width:fit-content; 
+}
+
+.dress {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    width:fit-content;
+}
+
+.leggingNike {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    width:fit-content;
+}
+
+.legging {  
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    width:fit-content;
+}
+
+.tshirt {   
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    width:fit-content;
+}
+
+.containerProducts {
+    display: table;
+    margin: 0 auto;
+}
+
+.left {
+    float:left;
+    padding-left: 50px;
+    width: 700px;
+    margin: 80px;
+}
+
+.descriptionContainerAndOrder {
+    float:right;
+    padding-left: 52px;
+    padding-right: 120px;
+    margin: 19px;
+    text-align: left;    
+}
+
+.price {
+    color:red;
+    font-size: 30px;
+    margin: 0;
+    text-shadow: 1px 0px 24px black;
+}
+
+div.order {
+    display: table-row;
+}
+
+label, input {
+    display: table-cell;
+    margin-bottom: 10px;
+    width: auto;
+}
+
+label {
+    padding-right: 10px;
+}
+
+form {
+    padding-left:20px;
+}
+
+.buttonSendOrder {
+    border: none;
+    padding: 5px 32px;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 15px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.title {
+    font-size: large;
+    background-color: white;
+}
+
+.users {
+    text-align: left;
+}
+
+.customerReviews {
+    text-shadow: 1px 0px 25px black;
+    color:rgb(83, 184, 224);
+    margin-top: 164px;
+}
+
+.form {
+    padding-left: 130px;
+    padding-bottom: 50px;
+}
+
+.buttonSendReview {
+    border: none;
+    padding: 5px 32px;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-top: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.link {
+    text-decoration: none;
+    color:black;
+}
