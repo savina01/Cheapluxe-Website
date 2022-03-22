@@ -1,29 +1,36 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="uft-8">
-        <title>Blue blouse page</title>
-        <link href="styles/style.css" rel="stylesheet">
-    </head>
-    <body>
-        <h4>Free delivery for orders over 50lv. Delivery in 1 day.</h4>
 
+<head>
+    <meta charset="uft-8">
+    <title>Blue blouse page</title>
+    <link href="styles/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <h4>Free delivery for orders over 50lv. Delivery in 1 day.</h4>
+
+    <header>
         <div class="contact">
-            <h3>               
-                0884127542
+            <h3>
+                Tel: 0884127542
                 <br>
                 <hr>
-                cheapluxe@official.com          
+                E-mail: cheapluxe@official.com
             </h3>
         </div>
-        
-        <div class="header">
-            <a class="link" href="mainPage.html"><h1>CHEAPLUXE</h1></a>
-        </div>
 
+        <div class="header">
+            <a class="link" href="mainPage.html">
+                <h1>CHEAPLUXE</h1>
+            </a>
+        </div>
+    </header>
+
+    <section>
         <h4 class="title">Euphoria blouse</h4>
         <img src="images/blouse.jpg" alt="Euphoria blouse" class="leftPhotoEuphoria">
-        
+
 
         <div class="descriptionContainerAndOrder">
             <p>Casual blue blouse suitable for walking</p>
@@ -53,40 +60,45 @@
             </p>
             <hr>
             <br>
-            
-        <p><strong>Make an order</strong></p>
-        <form action="" method="get" class="order">
-            <div class="order">
-              <label for="name">Full name: </label>
-              <input type="text" name="name" id="name" required>
-            </div>
-        <form action="" method="get" class="order">
-            <div class="order">
-              <label for="address">Address: </label>
-              <input type="text" name="address" id="address" required>
-            </div>
-            <button class="buttonSendOrder">Send</button>
-                  
-            <p class="customerReviews">Customer Reviews</p>
-            <hr>            
-            <p class="users">
-            <strong>Lora</strong><br>
-            Aahhhhh!!! SOOOO comfy! I love!!&#10024; &#128076;
-            <hr>
-            <br>      
-            <strong>Stela</strong>
-            <br>
-            Very flowy. Not as soft as I imagined &#128076;</p>
+
+            <p><strong>Make an order</strong></p>
+            <form action="" method="get" class="order">
+                <div class="order">
+                    <label for="name">Full name: </label>
+                    <input type="text" name="name" id="name" required>
+                </div>
+                <form action="" method="get" class="order">
+                    <div class="order">
+                        <label for="address">Address: </label>
+                        <input type="text" name="address" id="address" required>
+                    </div>
+                    <button class="buttonSendOrder" onclick="buttonSendOrder()">Send</button>
+
+                    <p class="customerReviews">Customer Reviews</p>
+                    <hr>
+                    <p class="users" id="customerReviews">
+                        <strong>Lora</strong><br>
+                        Aahhhhh!!! SOOOO comfy! I love!!&#10024; &#128076;
+                        <hr>
+                        <br>
+                        <strong>Stela</strong>
+                        <br>
+                        Very flowy. Not as soft as I imagined &#128076;
+                    </p>
         </div>
 
         <div class="form">
             <form>
-                <strong>Add review:</strong> 
+                <strong>Add review:</strong>
                 <br>
                 <br>
-                <textarea rows="5" cols="92" name="addReview" spellcheck="true">Name:</textarea>
+                <textarea class="text" rows="5" cols="92" id="addReview" name="addReview"
+                    spellcheck="true">Name:</textarea>
             </form>
-            <button class="buttonSendReview">Send</button>
+            <button class="buttonSendReview" id="buttonSendReview">Send</button>
         </div>
-    </body>
+        <script src="scripts/script.js"></script>
+    </section>
+</body>
+
 </html>

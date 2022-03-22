@@ -1,29 +1,36 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="uft-8">
-        <title>Legging Nike page</title>
-        <link href="styles/style.css" rel="stylesheet">
-    </head>
-    <body>
-        <h4>Free delivery for orders over 50lv. Delivery in 1 day.</h4>
 
+<head>
+    <meta charset="uft-8">
+    <title>Legging Nike page</title>
+    <link href="styles/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <h4>Free delivery for orders over 50lv. Delivery in 1 day.</h4>
+
+    <header>
         <div class="contact">
-            <h3>               
-                0884127542
+            <h3>
+                Tel: 0884127542
                 <br>
                 <hr>
-                cheapluxe@official.com          
+                E-mail: cheapluxe@official.com
             </h3>
         </div>
-        
-        <div class="header">
-            <a class="link" href="mainPage.html"><h1>CHEAPLUXE</h1></a>
-        </div>
 
+        <div class="header">
+            <a class="link" href="mainPage.html">
+                <h1>CHEAPLUXE</h1>
+            </a>
+        </div>
+    </header>
+
+    <section>
         <h4 class="title">Legging Nike</h4>
         <img src="images/legging.jpg" alt="Legging Nike" class="leftPhoto">
-        
+
 
         <div class="descriptionContainerAndOrderForLeggingNike">
             <p>Comfortable legging for outdoor sports</p>
@@ -50,40 +57,45 @@
             </p>
             <hr>
             <br>
-            
-        <p><strong>Make an order</strong></p>
-        <form action="" method="get" class="order">
-            <div class="order">
-              <label for="name">Full name: </label>
-              <input type="text" name="name" id="name" required>
-            </div>
-        <form action="" method="get" class="order">
-            <div class="order">
-              <label for="address">Address: </label>
-              <input type="text" name="address" id="address" required>
-            </div>
-            <button class="buttonSendOrder">Send</button>
-                  
-            <p class="customerReviews">Customer Reviews</p>
-            <hr>            
-            <p class="users">
-            <strong>Katy</strong><br>
-            Aahh! Perfect! &#128076;
-            <hr>
-            <br>      
-            <strong>Molly</strong>
-            <br>
-            I am in love!</p>
+
+            <p><strong>Make an order</strong></p>
+            <form action="" method="get" class="order">
+                <div class="order">
+                    <label for="name">Full name: </label>
+                    <input type="text" name="name" id="name" required>
+                </div>
+                <form action="" method="get" class="order">
+                    <div class="order">
+                        <label for="address">Address: </label>
+                        <input type="text" name="address" id="address" required>
+                    </div>
+                    <button class="buttonSendOrder" onclick="buttonSendOrder()">Send</button>
+
+                    <p class="customerReviews">Customer Reviews</p>
+                    <hr>
+                    <p class="users" id="customerReviews">
+                        <strong>Katy</strong><br>
+                        Aahh! Perfect! &#128076;
+                        <hr>
+                        <br>
+                        <strong>Molly</strong>
+                        <br>
+                        I am in love!
+                    </p>
         </div>
 
         <div class="form">
             <form>
-                <strong>Add review:</strong> 
+                <strong>Add review:</strong>
                 <br>
                 <br>
-                <textarea rows="5" cols="92" name="addReview" spellcheck="true">Name:</textarea>
+                <textarea class="text" rows="5" cols="92" id="addReview" name="addReview"
+                    spellcheck="true">Name:</textarea>
             </form>
-            <button class="buttonSendReview">Send</button>
+            <button class="buttonSendReview" id="buttonSendReview">Send</button>
         </div>
-    </body>
+        <script src="scripts/script.js"></script>
+    </section>
+</body>
+
 </html>
