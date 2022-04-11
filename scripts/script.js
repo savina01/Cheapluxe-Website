@@ -9,9 +9,12 @@ document.getElementById("buttonSendReview").addEventListener("click", buttonSent
 
 function buttonSentReview() {
     var newReview = document.getElementById("addReview").value
+    var userName = document.getElementById("userName").value
+    document.getElementById("customerReviews").innerHTML += userName
     document.getElementById("customerReviews").innerHTML += newReview
 
-    var html =
+
+    /*var html =
         "<p class='users'>" +
         "<strong>" + newReview +
         "</strong><br>"
@@ -22,5 +25,6 @@ function buttonSentReview() {
         "<strong>Stela</strong>" +
         "<br>" +
         "This dress is beautiful - it is so unique and sexy." + "<br> It is so flattering and I am able to show off my side<br> tattoo.</p>"
+        */
 
 }
