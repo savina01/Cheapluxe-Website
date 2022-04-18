@@ -1,106 +1,93 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="uft-8">
-    <title>T-shirt page</title>
-    <link href="styles/style.css" rel="stylesheet">
-</head>
-
-<body>
-    <h4>Free delivery for orders over 50lv. Delivery in 1 day.</h4>
-
-    <header>
-        <div class="contact">
+   <head>
+      <meta charset="uft-8">
+      <title>T-shirt page</title>
+      <link href="styles/style.css" rel="stylesheet">
+   </head>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <body>
+      <h4>Free delivery for orders over 50lv. Delivery in 1 day.</h4>
+      <header>
+         <div class="contact">
             <h3>
-                Tel: 0884127542
-                <br>
-                <hr>
-                E-mail: cheapluxe@official.com
+               Tel: 0884127542
+               <br>
+               <hr>
+               E-mail: cheapluxe@official.com
             </h3>
-        </div>
-
-        <div class="header">
+         </div>
+         <div class="header">
             <a class="link" href="mainPage.html">
-                <h1>CHEAPLUXE</h1>
+               <h1>CHEAPLUXE</h1>
             </a>
-        </div>
-    </header>
-
-    <section>
-        <h4 class="title">Leopard t-shirt</h4>
-        <img src="images/tshirt.jpg" alt="tshirt" class="leftPhoto">
-
-
-        <div class="descriptionContainerAndOrderForLeggingNike">
+         </div>
+      </header>
+      <section>
+         <h4 class="title">Leopard t-shirt</h4>
+         <img src="images/tshirt.jpg" alt="tshirt" class="leftPhoto">
+         <div class="descriptionContainerAndOrderForLeggingNike">
             <p>Leopard autumn-winter t-shirt</p>
             <p class="price">10lv.</p>
             <hr>
             <p><strong>Description:</strong></p>
             <ul>
-                <li>Different sizes from XS to XL</li>
-                <li>Women's t-shirt with a classic cut.</li>
-                <li>The model has short sleeves.</li>
-                <li>Current print.</li>
-                <li>Combined model, ideal for the autumn season.</li>
-                <li>Great proposal for a modern urban vision.</li>
+               <li>Different sizes from XS to XL</li>
+               <li>Women's t-shirt with a classic cut.</li>
+               <li>The model has short sleeves.</li>
+               <li>Current print.</li>
+               <li>Combined model, ideal for the autumn season.</li>
+               <li>Great proposal for a modern urban vision.</li>
             </ul>
             <p>
-                Weight: 0.5 kg.
-                <br>
-                Color: brown
-                <br>
-                Fabric: Cotton - 100%
-                <br>
-                Product type: T-shirt
-                <br>
-                <br>
+               Weight: 0.5 kg.
+               <br>
+               Color: brown
+               <br>
+               Fabric: Cotton - 100%
+               <br>
+               Product type: T-shirt
+               <br>
+               <br>
             </p>
             <hr>
             <br>
-
             <p><strong>Make an order</strong></p>
             <form action="" method="get" class="order">
-                <div class="order">
-                    <label for="name">Full name: </label>
-                    <input type="text" name="name" id="name" required>
-                </div>
-                <form action="" method="get" class="order">
-                    <div class="order">
-                        <label for="address">Address: </label>
-                        <input type="text" name="address" id="address" required>
-                    </div>
-                    <button class="buttonSendOrder" onclick="buttonSendOrder()">Send</button>
-
-                    <p class="customerReviews">Customer Reviews</p>
-                    <hr>
-                    <p class="users" id="customerReviews">
-                        <strong>Sara</strong><br>
-                        Cute! I love leopard.
-                        <hr>
-                        <br>
-                        <strong>Poly</strong>
-                        <br>
-                        Great t-shirt. I can combine with different jeans.
-                    </p>
-        </div>
-
-        <div class="form">
-            <form>
-                <strong>Add review:</strong>
-                <br>
-                <br>
-                Name:
-                <br>
-                <textarea class="userName"  rows="1" cols="40" id="userName" name="userName">
-                </textarea>
-                <textarea class="text" rows="5" cols="92" id="addReview" name="addReview"
-                    spellcheck="true"></textarea>
-            </form>
-            <button class="buttonSendReview" id="buttonSendReview">Send</button>
-        </div>
-        <script src="scripts/script.js"></script>
-    </section>
-</body>
-
+               <div class="order">
+                  <label for="name">Full name: </label>
+                  <input type="text" name="name" id="name" required>
+               </div>
+            <form action="" method="get" class="order">
+               <div class="order">
+                  <label for="address">Address: </label>
+                  <input type="text" name="address" id="address" required>
+               </div>
+               <button class="buttonSendOrder" onclick="buttonSendOrder()">Send</button>
+               <p class="customerReviews">Customer Reviews</p>
+               <hr>
+               <p class="users" id="customerReviews">
+                  <strong>Poly</strong>
+                  <br>
+                  Great t-shirt. I can combine with different jeans.
+               </p>
+         </div>
+         <div class="form">
+         <div class="formAddReview">
+         <form>
+         <strong>Add review:</strong>
+         <br>
+         <br>
+         Name:<br>
+         <textarea class="userName"  rows="1" cols="40" id="userName" name="userName"></textarea>
+         <br>Review:
+         <textarea class="text" rows="5" cols="92" id="addReview" name="addReview"
+            spellcheck="true"></textarea>
+         </form>
+         </div>
+         <button class="buttonSendReview" id="buttonSendReview">Send</button>
+         </div>
+         <script src="scripts/script.js"></script>
+      </section>
+   </body>
 </html>

@@ -1,105 +1,92 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="uft-8">
-    <title>Legging page</title>
-    <link href="styles/style.css" rel="stylesheet">
-</head>
-
-<body>
-    <h4>Free delivery for orders over 50lv. Delivery in 1 day.</h4>
-
-    <header>
-        <div class="contact">
+   <head>
+      <meta charset="uft-8">
+      <title>Legging page</title>
+      <link href="styles/style.css" rel="stylesheet">
+   </head>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <body>
+      <h4>Free delivery for orders over 50lv. Delivery in 1 day.</h4>
+      <header>
+         <div class="contact">
             <h3>
-                Tel: 0884127542
-                <br>
-                <hr>
-                E-mail: cheapluxe@official.com
+               Tel: 0884127542
+               <br>
+               <hr>
+               E-mail: cheapluxe@official.com
             </h3>
-        </div>
-
-        <div class="header">
+         </div>
+         <div class="header">
             <a class="link" href="mainPage.html">
-                <h1>CHEAPLUXE</h1>
+               <h1>CHEAPLUXE</h1>
             </a>
-        </div>
-    </header>
-
-    <section>
-        <h4 class="title">Glami legging</h4>
-        <img src="images/legging2.jpg" alt="Legging" class="leftPhoto">
-
-
-        <div class="descriptionContainerAndOrderForLegging">
+         </div>
+      </header>
+      <section>
+         <h4 class="title">Glami legging</h4>
+         <img src="images/legging2.jpg" alt="Legging" class="leftPhoto">
+         <div class="descriptionContainerAndOrderForLegging">
             <p>Daily long purple legging for walking</p>
             <p class="price">12lv.</p>
             <hr>
             <p><strong>Description:</strong></p>
             <ul>
-                <li>Different sizes from XS to XL</li>
-                <li>Spectacular women's wedge made of elastic fabric.</li>
-                <li>Comfortable and interest model.</li>
-                <li>Great choice for your sports vision.</li>
-                <li>Made of elastan.</li>
+               <li>Different sizes from XS to XL</li>
+               <li>Spectacular women's wedge made of elastic fabric.</li>
+               <li>Comfortable and interest model.</li>
+               <li>Great choice for your sports vision.</li>
+               <li>Made of elastan.</li>
             </ul>
             <p>
-                Weight: 0.5 kg.
-                <br>
-                Color: purple
-                <br>
-                Fabric: Polyester - 100%
-                <br>
-                Product type: Legging
-                <br>
-                <br>
+               Weight: 0.5 kg.
+               <br>
+               Color: purple
+               <br>
+               Fabric: Polyester - 100%
+               <br>
+               Product type: Legging
+               <br>
+               <br>
             </p>
             <hr>
             <br>
-
             <p><strong>Make an order</strong></p>
             <form action="" method="get" class="order">
-                <div class="order">
-                    <label for="name">Full name: </label>
-                    <input type="text" name="name" id="name" required>
-                </div>
-                <form action="" method="get" class="order">
-                    <div class="order">
-                        <label for="address">Address: </label>
-                        <input type="text" name="address" id="address" required>
-                    </div>
-                    <button class="buttonSendOrder" onclick="buttonSendOrder()">Send</button>
-
-                    <p class="customerReviews">Customer Reviews</p>
-                    <hr>
-                    <p class="users" id="customerReviews">
-                        <strong>Mady</strong><br>
-                        WOW! In love!
-                        <hr>
-                        <br>
-                        <strong>Hrisi</strong>
-                        <br>
-                        I would prefer to have more colors.
-                    </p>
-        </div>
-
-        <div class="form">
-            <form>
-                <strong>Add review:</strong>
-                <br>
-                <br>
-                Name:
-                <br>
-                <textarea class="userName"  rows="1" cols="40" id="userName" name="userName">
-                </textarea>
-                <textarea class="text" rows="5" cols="92" id="addReview" name="addReview"
-                    spellcheck="true"></textarea>
-            </form>
-            <button class="buttonSendReview" id="buttonSendReview">Send</button>
-        </div>
-        <script src="scripts/script.js"></script>
-    </section>
-</body>
-
+               <div class="order">
+                  <label for="name">Full name: </label>
+                  <input type="text" name="name" id="name" required>
+               </div>
+            <form action="" method="get" class="order">
+               <div class="order">
+                  <label for="address">Address: </label>
+                  <input type="text" name="address" id="address" required>
+               </div>
+               <button class="buttonSendOrder" onclick="buttonSendOrder()">Send</button>
+               <p class="customerReviews">Customer Reviews</p>
+               <hr>
+               <p class="users" id="customerReviews">
+                  <strong>Hrisi</strong>
+                  <br>
+                  I would prefer to have more colors.
+               </p>
+         </div>
+         <div class="form">
+         <div class="formAddReview">
+         <form>
+         <strong>Add review:</strong>
+         <br>
+         <br>
+         Name:<br>
+         <textarea class="userName" rows="1" cols="40" id="userName" name="userName"></textarea>
+         <br>Review:
+         <textarea class="text" rows="5" cols="92" id="addReview" name="addReview"
+            spellcheck="true"></textarea>
+         </form>
+         </div>
+         <button class="buttonSendReview" id="buttonSendReview">Send</button>
+         </div>
+         <script src="scripts/script.js"></script>
+      </section>
+   </body>
 </html>

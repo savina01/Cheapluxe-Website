@@ -3,30 +3,27 @@ body {
     margin: 0;
     background-color: azure;
 }
-
 img {
     margin: 26px;
     border:0px solid #ccc;
     width: 480px;
     cursor: pointer;
+    width: 93%;
 }
-
 h1 {
     text-align: center;
     margin: 5px;
     font-family: none;
 }
-
 h2 {
     padding-top: 30px;
-    padding-left: 70px;   
+    padding-left: 70px;
 }
-
 p {
     text-align: center;
     padding-bottom: 10px;
+    max-width:none;
 }
-
 h4 {
     text-align: center;
     font-size: medium;
@@ -34,116 +31,104 @@ h4 {
     padding: 5px;
     margin: 0;
 }
-
 .contact {
     color: rgb(83, 184, 224);
     padding-left: 20px;
     padding-right: 20px;
 }
-
 .EuphoriaBlouse {
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 25px;
-    width:fit-content; 
+    width:fit-content;
 }
-
 .dress {
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 25px;
     width:fit-content;
 }
-
 .leggingNike {
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 25px;
     width:fit-content;
 }
-
-.legging {  
+.legging {
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 25px;
     width:fit-content;
 }
-
-.tshirt {   
+.tshirt {
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 25px;
     width:fit-content;
 }
-
 .containerProducts {
     display: table;
     margin: 0 auto;
 }
-
 .leftPhoto {
     float:left;
     padding-left: 50px;
     width: 700px;
     margin: 60px;
 }
-
 .leftPhotoEuphoria {
     float:left;
     padding-left: 50px;
     width: 700px;
     margin: 80px;
 }
-
 .descriptionContainerAndOrder {
     float:right;
     padding-left: 52px;
     padding-right: 120px;
-    margin: 19px;
-    text-align: left;    
+    margin: 38px;
+    text-align: left;
 }
-
+.descriptionContainerAndOrderForEuphoriaBlouse {
+    float:right;
+    padding-left: 19px;
+    padding-right: 120px;
+    margin: 38px;
+    text-align: left;
+}
 .descriptionContainerAndOrderForLeggingNike {
     float:right;
     padding-left: 52px;
     padding-right: 120px;
     margin: 42px;
-    text-align: left;    
+    text-align: left;
 }
-
 .descriptionContainerAndOrderForLegging {
     float:right;
     padding-left: 52px;
     padding-right: 120px;
     margin: 30px;
-    text-align: left;  
+    text-align: left;
 }
-
 .price {
-    color:red;
+    color:deeppink;
     font-size: 30px;
     margin: 0;
-    text-shadow: 1px 0px 24px black;
 }
-
 div.order {
     display: table-row;
 }
-
 label, input {
     display: table-cell;
     margin-bottom: 10px;
     width: auto;
 }
-
 label {
     padding-right: 10px;
 }
-
 form {
     padding-left:20px;
 }
-
 .buttonSendOrder {
     border: none;
     padding: 5px 32px;
@@ -153,29 +138,24 @@ form {
     cursor: pointer;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
 .title {
     background-color: deeppink;
     font-size: 40px;
     text-align: left;
     padding-left: 103px;
 }
-
 .users {
     text-align: left;
 }
-
 .customerReviews {
     text-shadow: 1px 0px 25px black;
     color:rgb(83, 184, 224);
     margin-top: 164px;
 }
-
 .form {
     padding-left: 130px;
     padding-bottom: 50px;
 }
-
 .buttonSendReview {
     border: none;
     padding: 5px 32px;
@@ -186,8 +166,16 @@ form {
     margin-top: 12px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
 .link {
     text-decoration: none;
     color:black;
+}
+.userName {
+    resize: none;
+}
+.text {
+    resize: none;
+}
+.formAddReview {
+    margin: auto;
 }
