@@ -1,6 +1,7 @@
 function buttonSendOrder() {
     let name = document.getElementById('name').value;
-    if (name != null)
+    let address = document.getElementById('address').value;
+    if (name != null && address != null)
         window.alert(name + ', Thank you for the order!');
 }
 

@@ -14,6 +14,11 @@ h1 {
     text-align: center;
     margin: 5px;
     font-family: none;
+    width: 100%;
+    font-size: 48px;
+}
+.header {
+    width: 100%;
 }
 h2 {
     padding-top: 30px;
@@ -26,12 +31,13 @@ p {
 }
 h4 {
     text-align: center;
-    font-size: medium;
+    font-size: 15px;
     background-color: rgb(83, 184, 224);
     padding: 5px;
     margin: 0;
 }
 .contact {
+    font-size: x-small;
     color: rgb(83, 184, 224);
     padding-left: 20px;
     padding-right: 20px;
@@ -75,36 +81,44 @@ h4 {
     padding-left: 50px;
     width: 700px;
     margin: 60px;
+    cursor: zoom-in;
+    width: 46%;
+}
+.leftPhoto:hover {
+    transform: scale(1.5); 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
 }
 .leftPhotoEuphoria {
     float:left;
     padding-left: 50px;
     width: 700px;
     margin: 80px;
+    cursor: zoom-in;
+    width: 46%;
+}
+.leftPhotoEuphoria:hover {
+    transform: scale(1.5);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
 }
 .descriptionContainerAndOrder {
-    float:right;
     padding-left: 52px;
     padding-right: 120px;
     margin: 38px;
     text-align: left;
 }
 .descriptionContainerAndOrderForEuphoriaBlouse {
-    float:right;
     padding-left: 19px;
     padding-right: 120px;
     margin: 38px;
     text-align: left;
 }
-.descriptionContainerAndOrderForLeggingNike {
-    float:right;
+.descriptionContainerAndOrderForLeggingNike {    
     padding-left: 52px;
     padding-right: 120px;
     margin: 42px;
     text-align: left;
 }
 .descriptionContainerAndOrderForLegging {
-    float:right;
     padding-left: 52px;
     padding-right: 120px;
     margin: 30px;
@@ -126,9 +140,6 @@ label, input {
 label {
     padding-right: 10px;
 }
-form {
-    padding-left:20px;
-}
 .buttonSendOrder {
     border: none;
     padding: 5px 32px;
@@ -139,7 +150,7 @@ form {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .title {
-    background-color: deeppink;
+    background-color: rgb(83, 184, 224);
     font-size: 40px;
     text-align: left;
     padding-left: 103px;
@@ -149,12 +160,13 @@ form {
 }
 .customerReviews {
     text-shadow: 1px 0px 25px black;
-    color:rgb(83, 184, 224);
-    margin-top: 164px;
+    margin-top: 291px;
+    display: flow-root;
 }
 .form {
-    padding-left: 130px;
+    padding-left: 110px;
     padding-bottom: 50px;
+    padding-right: 110px;
 }
 .buttonSendReview {
     border: none;
@@ -179,3 +191,35 @@ form {
 .formAddReview {
     margin: auto;
 }
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    color: white;
+}
+li {
+    float: left;
+    list-style: none;
+}
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 5px 24px;
+    text-decoration: none;
+    position:static;
+}
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+li a:hover(:active) {
+    cursor: pointer;
+}
+li :hover {
+    background-color: white;
+}
+.productType {
+    font-size: 19px;
+}
+
