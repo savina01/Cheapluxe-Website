@@ -4,8 +4,8 @@
       <meta charset="uft-8">
       <title>Dress page</title>
       <link href="styles/style.css" rel="stylesheet">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
    </head>
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <body>
       <h4>Free delivery for orders over 50lv. Delivery in 1 day.</h4>
       <header>
@@ -50,12 +50,12 @@
             <hr>
             <br>
             <p><strong>Make an order</strong></p>
-            <form action="" method="get" class="order">
+            <form action="connect.php" method="post" class="order">
                <div class="order">
                   <label for="name">Full name: </label>
                   <input type="text" name="name" id="name" required>
                </div>
-            <form action="" method="get" class="order">
+            <form action="connect.php" method="post" class="order">
                <div class="order">
                   <label for="address">Address: </label>
                   <input type="text" name="address" id="address" required>
@@ -78,9 +78,9 @@
          <br>
          <br>
          Name:<br>
-         <textarea class="userName" rows="1" cols="40" id="userName" name="userName"></textarea>
+         <textarea action="connect.php" method="post" class="userName" rows="1" cols="40" id="userName" name="userName"></textarea>
          <br>Review:<br>
-         <textarea class="text" rows="5" cols="92" id="addReview" name="addReview"
+         <textarea action="connect.php" method="post" class="text" rows="5" cols="92" id="addReview" name="addReview"
             spellcheck="true"></textarea>
          </form>
          </div>
