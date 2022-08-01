@@ -1,4 +1,4 @@
-# First front-end project for online shop "CheapLuxe"
+# Simple front-end project for online shop "CheapLuxe"
 In procces...
 
 ## Demo
